@@ -1,6 +1,19 @@
-# FirebaseAuth
+# Angular Firebase Email Authentication Using Own Email Password
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+Welcome to Code With Srini, in this lecture I am gonna talk about creating a user in firebase using email and allowing the user to login.
+
+## Video Source
+https://youtu.be/mArXOf0daQ4
+
+## Angular Blog
+http://www.codewithsrini.com/
+
+## Related Tags
+angular 6 firebase authentication,angular 6 firebase,firebase authentication angular,angular 7 firebase authentication,angular,angular firebase authentication tutorial,Firebase Email Authentication,firebase cloudstore,firestore,Email Password Login,Angular Bootstrap,codewithsrini,code with srini,angular 7 tutorial,angular 7 material tutorial,angular firebase tutorial Angular 6,firebase email provider,srini,sekhar,srini sekhar,firebase angular app,angular app
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Development server
 

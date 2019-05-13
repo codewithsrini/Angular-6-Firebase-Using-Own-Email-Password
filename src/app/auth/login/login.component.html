@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-12">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+
+      <div class="row" *ngIf="authError">
+        <div class="col-12 alert alert-danger">{{ authError?.message }}</div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <label for="email">Email</label>
+          <input ngModel #email="ngModel" name="email" type="email" class="form-control">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <label for="password">Password</label>
+          <input ngModel #password="ngModel" name="password" type="password" class="form-control">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-12">
+          <a href="/register">Click here to register</a>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Login</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
